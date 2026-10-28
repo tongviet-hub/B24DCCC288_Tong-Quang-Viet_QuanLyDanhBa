@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand & Primary Colors -->
+    <color name="primary">#4F46E5</color>
+    <color name="primary_dark">#4338CA</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#EEF2FF</color>
+    <color name="on_primary_container">#3730A3</color>
+
+    <!-- Secondary / Accent -->
+    <color name="secondary">#0EA5E9</color>
+    <color name="secondary_container">#E0F2FE</color>
+    <color name="on_secondary_container">#0369A1</color>
+
+    <!-- Backgrounds & Surfaces -->
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="card_stroke">#E2E8F0</color>
+    <color name="divider">#E2E8F0</color>
+
+    <!-- Typography -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="text_error">#DC2626</color>
+
+    <!-- Interactive & Accents -->
+    <color name="star_active">#F59E0B</color>
+    <color name="star_inactive">#CBD5E1</color>
+    <color name="call_green">#10B981</color>
+    <color name="call_green_dark">#059669</color>
+    <color name="call_green_bg">#D1FAE5</color>
+    <color name="delete_red">#DC2626</color>
+    <color name="delete_red_bg">#FEE2E2</color>
+
+    <!-- Group Badges -->
+    <color name="group_family_bg">#FFE4E6</color>
+    <color name="group_family_text">#BE123C</color>
+    <color name="group_friend_bg">#D1FAE5</color>
+    <color name="group_friend_text">#047857</color>
+    <color name="group_work_bg">#E0F2FE</color>
+    <color name="group_work_text">#0369A1</color>
+    <color name="group_other_bg">#FEF3C7</color>
+    <color name="group_other_text">#B45309</color>
+
+    <!-- Dynamic Avatar Palette -->
+    <color name="avatar_1">#4F46E5</color>
+    <color name="avatar_2">#E11D48</color>
+    <color name="avatar_3">#059669</color>
+    <color name="avatar_4">#D97706</color>
+    <color name="avatar_5">#7C3AED</color>
+    <color name="avatar_6">#0891B2</color>
+</resources>
