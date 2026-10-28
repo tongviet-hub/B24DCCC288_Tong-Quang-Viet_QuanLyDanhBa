@@ -23,9 +23,9 @@ public class ContactRepositoryTest {
         assertTrue(repository.getFavoriteCount() >= 1);
 
         // Kiểm tra sự tồn tại của 3 liên hệ mẫu
-        assertTrue(repository.isPhoneExists("0901234567", null));
-        assertTrue(repository.isPhoneExists("0912345678", null));
-        assertTrue(repository.isPhoneExists("0987654321", null));
+        assertTrue(repository.isPhoneExists("0982123456", null));
+        assertTrue(repository.isPhoneExists("0915789654", null));
+        assertTrue(repository.isPhoneExists("0973456789", null));
     }
 
     @Test

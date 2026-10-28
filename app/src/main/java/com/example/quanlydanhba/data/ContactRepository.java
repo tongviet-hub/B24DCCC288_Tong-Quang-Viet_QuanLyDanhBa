@@ -24,17 +24,17 @@ public class ContactRepository {
      */
     private void initSampleData() {
         contactList.add(new Contact(
-                "Nguyễn Văn An",
-                "0901234567",
+                "Phạm Quốc Tuấn",
+                "0982123456",
                 "Bạn bè",
                 "Nam",
                 false,
-                "Bạn thân thời đại học."
+                "Bạn thân thời cấp 3."
         ));
 
         contactList.add(new Contact(
-                "Trần Thị Bình",
-                "0912345678",
+                "Hoàng Thùy Dương",
+                "0915789654",
                 "Gia đình",
                 "Nữ",
                 true,
@@ -42,12 +42,12 @@ public class ContactRepository {
         ));
 
         contactList.add(new Contact(
-                "Lê Minh Châu",
-                "0987654321",
+                "Đỗ Minh Khang",
+                "0973456789",
                 "Công việc",
                 "Nam",
                 false,
-                "Quản lý dự án Android."
+                "Đồng nghiệp cùng phòng ban."
         ));
     }
 

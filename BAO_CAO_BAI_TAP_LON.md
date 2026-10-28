@@ -83,10 +83,10 @@
     * `ivFavorite`: ImageView hiển thị icon ngôi sao (vàng khi yêu thích, xám khi chưa yêu thích).
   * `fabAddContact`: Nút tròn nổi `ExtendedFloatingActionButton` góc dưới phải để mở màn hình thêm mới.
 * **Dữ liệu mẫu ban đầu:**
-  Khởi tạo sẵn 3 liên hệ theo đề bài trong `ContactRepository.java`:
-  1. Nguyễn Văn An | `0901234567` | Bạn bè | Nam | Không yêu thích | Ghi chú: "Bạn thân thời đại học."
-  2. Trần Thị Bình | `0912345678` | Gia đình | Nữ | Có yêu thích | Ghi chú: "Chị gái ruột."
-  3. Lê Minh Châu | `0987654321` | Công việc | Nam | Không yêu thích | Ghi chú: "Quản lý dự án Android."
+  Khởi tạo sẵn 3 liên hệ trong `ContactRepository.java`:
+  1. Phạm Quốc Tuấn | `0982123456` | Bạn bè | Nam | Không yêu thích | Ghi chú: "Bạn thân thời cấp 3."
+  2. Hoàng Thùy Dương | `0915789654` | Gia đình | Nữ | Có yêu thích | Ghi chú: "Chị gái ruột."
+  3. Đỗ Minh Khang | `0973456789` | Công việc | Nam | Không yêu thích | Ghi chú: "Đồng nghiệp cùng phòng ban."
 * **Cách tính và đồng bộ thống kê:**
   * Lớp `ContactRepository` cung cấp 2 hàm: `getTotalCount()` (lấy `size()`) và `getFavoriteCount()` (duyệt đếm các phần tử có `isFavorite() == true`).
   * Trong `MainActivity.java`, ghi đè hàm vòng đời `onResume()` để gọi `refreshData()`, đảm bảo mỗi khi quay lại từ màn hình Thêm hoặc Chi tiết thì số liệu và danh sách luôn được đồng bộ mới nhất:
